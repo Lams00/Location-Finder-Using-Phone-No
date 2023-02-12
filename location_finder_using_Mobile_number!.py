@@ -1,6 +1,6 @@
 import phonenumbers
 from phonenumbers import geocoder
-number = "enter the phone number here"
+number =+60108873726
 num = phonenumbers.parse(number,"CH")
 print(geocoder.description_for_number(num,"en"))
 from phonenumbers import carrier
